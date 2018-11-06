@@ -1,0 +1,26 @@
+----------------- INSTALAÇÃO
+
+ - Entre na pasta Instalador
+ - Execute o arquivo step1.exe (o PLX-DAQ original será instalado)
+ 	- Siga os passos do instalador
+ 	- Aguarde finalizar a instalação
+ - Execute o step2.bat (Serão copiados os arquivos que estao na pasta addin para as pastas de instalação do Office)
+ - Abra um novo arquivo do Excell
+ - Verifique se a aba Desenvolvedor está disponível
+	- Se não estiver disponível vá em Arquivo -> opções -> personalizar faixa de opções
+	- e marque a opção Desenvolvedor na coluna da direita
+	- clique em OK e prossiga
+ - Na aba Desenvolvedor vá em "Suplementos do Excel"
+ - Marque a caixa "Espectrapp" e desmarque a caixa "Plx_Daq_Sup" clique em OK
+
+-------------------- USO 
+
+ - Inicie o PLX-DAQ através do atalho Ctrl + q
+ - O PLX-DAQ estará disponivel em todas as planilhas através do atalho Ctrl + q
+
+-------------------- DESINSTALAÇÃO
+
+ - Vá na pasta C:\Users\[nome do usuário]\AppData\Roaming\Microsoft\AddIns
+ - Substituindo [nome do usuário] pelo nome de usuário do Windows
+ - Exclua o arquivo plx-daq-sup.xlam
+ - Execute novamente o arquivo step1.exe e selecione a opção "remove"
