@@ -15,5 +15,5 @@ Estrutura de pastas:
     Projeto do Particle, o projeto pode ser aberto através da IDE do photon
      disponível em: https://docs.particle.io/tutorials/developer-tools/dev/
   - **MacroExcel**
-    o arquivo macro.vba é só uma referencia do funcionamento destesuplemento
+    o arquivo macro.vba é só uma referencia do funcionamento deste suplemento
     para fazer uso da macro siga os passos do arquivo Instalacao.txt
